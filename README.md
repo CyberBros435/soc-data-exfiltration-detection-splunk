@@ -6,6 +6,7 @@ Splunk — the first project in this series where the attack signal is a
 quantity (bytes transferred) rather than a pass/fail outcome.
 
 **Full technical report:** [report/report.md](report/report.md)
+
 **Formal incident report:** [report/incident-report.md](report/incident-report.md)
 
 ## Quick Summary
