@@ -58,7 +58,7 @@ pip install -r requirements.txt --break-system-packages
    python3 exfil_attacker.py
    ```
 5. Check `exfil_logs.log` — it now contains 6 real download events: 3 normal, 3 exfiltration.
-6. Import `exfil_logs.log` into Splunk (Add Data → Upload, sourcetype `exfil_detection_analysis`) and follow the SPL queries in [report/report.md](report/report.md) to reproduce the full analysis, alert, and dashboard.
+6. Import `exfil_logs.log` into Splunk (Add Data → Upload, sourcetype `exfil_detection_analysis`) and follow the SPL queries in   [report/report.md](report/report.md)  to reproduce the full analysis, alert, and dashboard.
 
 ## Note on Splunk Dashboards
 This project uses a **Classic Dashboard**, not Dashboard Studio. When saving a panel, explicitly select "Classic Dashboards" in the save dialog.
